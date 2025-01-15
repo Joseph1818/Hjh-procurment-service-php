@@ -116,9 +116,17 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #e44c65 !important;
-			border-bottom-color: transparent;
+			font-size: 20px;
 		}
+
+
+
+		
+		/* Styling for active link */
+	 a.active {
+	color: #e44c65 !important;
+	text-decoration: underline !important; /* Active link underline */
+  }
 
 	strong, b {
 		color: #ffffff;
@@ -4318,14 +4326,15 @@ label {
 
 
 	#header {
+		position: relative;
 		background: #fff;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
-		left: 0;
-		line-height: 3.5em;
 		position: fixed;
 		top: 0;
+		left: 0;
+		line-height: 3.5em;
 		width: 100%;
 		z-index: 100;
 	}
@@ -4395,28 +4404,19 @@ label {
 	body.landing #header {
 		background: #fff;
 		box-shadow: none;
-		position: absolute;
+		max-width: 92%;
+		margin-left: 3rem;
 	}
 
-/* Banner */
 
-	/* #banner {
-		background-attachment: fixed;
-		background-position: center center;
-		background-size: cover;
-		min-height: 100vh;
-		position: relative;
-		text-align: center;
-		z-index: 21;
-	} */
-	 /* Banner Section */
 #banner {
 	position: relative;
 	min-height: 100vh;
 	overflow: hidden;
 	text-align: center;
-	justify-content: center;     /* Centers the header horizontally */
+	justify-content: center;     
 	align-items: center;  
+	margin-top: 0;
   }
   
   /* Swiper Container for the Background */

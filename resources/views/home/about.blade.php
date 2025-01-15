@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" href="/images/HJH_PIC4.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="css/main.css" />
+	
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -19,16 +20,16 @@
 
 		<header id="header">
 			<h1 id="logo">
-				<a href="index.html">
+				<a href="{{ route('home.index') }}">
 					<img src="images/HJH_LOGO.png" alt="Logo" />
 				</a>
 			</h1>
 			<nav id="nav">
-				<ul>
+				<ul style="font-weight:600">
 					<li><a href="{{ route('home.index') }}">HOME</a></li>
 					<li><a href="{{ route('home.procurement') }}">PROCUREMENT</a></li>
 					<li><a href="{{ route('home.worldwide-presence') }}">WORLDWIDE PRESENCE</a></li>
-					<li><a href="{{ route('home.about') }}">ABOUT</a></li>
+					<li><a href="{{ route('home.about') }}" class="active">ABOUT</a></li>
 					<li><a href="{{ route('home.contact') }}">CONTACT</a></li>
 
 				</ul>
@@ -71,7 +72,7 @@
 				<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 			</ul>
 			<ul class="copyright">
-				<li>&copy;All rights HJH 2024 reserved.</li>
+				<li>&copy;All rights <span id="currentYear"></span> reserved.</li>
 			</ul>
 		</footer>
 	</div>
@@ -88,6 +89,7 @@
 	<script src="home/js/custom.js"></script>
 	<script src="home/js/swiper-init.js"></script>
 	<script src="home/js/newsletter.js"></script>
+	<script src="home/js/dynamic-year.js"></script>
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 

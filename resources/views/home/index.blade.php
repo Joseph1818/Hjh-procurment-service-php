@@ -33,14 +33,14 @@
 		<!-- Header -->
 		<header id="header">
 			<h1 id="logo">
-				<a href="index.html">
+				<a href="{{ route('home.index') }}">
 					<img src="images/HJH_LOGO.png" alt="Logo" />
 				</a>
 			</h1>
 			<nav id="nav">
-				<ul>
-					<li><a href="{{ route('home.index') }}">HOME</a></li>
-					<li><a href="{{ route('home.procurement') }}">PROCUREMENT</a></li>
+				<ul style="font-weight:600">
+					<li ><a href="{{ route('home.index') }}" class="active">HOME</a></li>
+					<li><a  href="{{ route('home.procurement') }}">PROCUREMENT</a></li>
 					<li><a href="{{ route('home.worldwide-presence') }}">WORLDWIDE PRESENCE</a></li>
 					<li><a href="{{ route('home.about') }}">ABOUT</a></li>
 					<li><a href="{{ route('home.contact') }}">CONTACT</a></li>
@@ -69,8 +69,8 @@
 				<header>
 					<h2 class="section-right" style="color: #fff;">The future has landed</h2>
 					<span class="span_banner"></span>
-					<p class="section-left" style="color:#fff">And there are no hoverboards or flying cars<br />
-						Just apps. Lots of mother flipping apps.</p>
+					<p class="section-left" style="color:#fff;">Empowering businesses with seamless solutions <br />
+						Efficient. Reliable. Tailored for you.</p>
 				</header>
 			</div>
 			<a href="#two" class="goto-next scrolly">Next</a>
@@ -203,7 +203,7 @@
 				<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 			</ul>
 			<ul class="copyright">
-				<li>&copy;All rights HJH 2024 reserved.</li>
+				<li>&copy;All rights <span id="currentYear"></span> reserved.</li>
 			</ul>
 		</footer>
 	</div>
@@ -218,9 +218,11 @@
 	<script src="home/js/util.js"></script>
 	<script src="home/js/main.js"></script>
 	<script src="home/js/custom.js"></script>
+	<script src="home/js/dynamic-year.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="home/js/swiper-init.js"></script>
 	<script src="home/js/newsletter.js"></script>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	
 </body>
 
 </html>
