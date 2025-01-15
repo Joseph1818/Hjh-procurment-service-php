@@ -67,7 +67,7 @@
 			<!-- Header with Content -->
 			<div class="content">
 				<header>
-					<h2 class="section-right" style="color: #fff;">The future has landed</h2>
+					<h2 class="section-right" style="color: #fff; font-weight:800; ">The future has landed</h2>
 					<span class="span_banner"></span>
 					<p class="section-left" style="color:#fff;">Empowering businesses with seamless solutions <br />
 						Efficient. Reliable. Tailored for you.</p>
@@ -76,7 +76,6 @@
 			<a href="#two" class="goto-next scrolly">Next</a>
 		</section>
 
-		<!-- Banner -->
 
 		<!-- Two -->
 		<section id="two" class="spotlight style2 right">
@@ -138,14 +137,14 @@
 							<div class="container_countUp">
 								<i class="fa-solid fa-user-tie"></i>
 								<span class="num" data-val="100">00</span>
-								<span class="text">Dedicated account handlers</span>
+								<span class="text">Account handlers</span>
 							</div>
 						</section>
 						<section class="col-4 col-6-medium col-12-xsmall">
 							<div class="container_countUp">
 								<i class="fa-solid fa-globe"></i>g
 								<span class="num" data-val="10">00</span>
-								<span class="text">Worldwide serving countries</span>
+								<span class="text">Serving countries</span>
 							</div>
 						</section>
 						<section class="col-4 col-6-medium col-12-xsmall">
