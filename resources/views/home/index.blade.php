@@ -4,7 +4,7 @@
 	<title>HJH Procurements of Services</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="shortcut icon" href="home/images/HJH_PIC4.png" type="image/x-icon">
+	<link rel="shortcut icon" href="/images/HJH_PIC4.png" type="image/x-icon">
 	<link rel="stylesheet" href="home/css/main.css" />
 	<link rel="shortcut icon" href="home/images/HJH_PIC4.png" type="image/x-icon">
 	<!-- Font Awesome CDN -->
